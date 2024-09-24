@@ -1,0 +1,464 @@
+<mxfile host="65bd71144e">
+    <diagram id="7HIvi9jQILCgcJ4Z68tV" name="第 1 页">
+        <mxGraphModel dx="1916" dy="555" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="169" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="931" y="1880" width="429" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="2100" width="370" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+                    <mxGeometry x="536" y="504.5" width="157" height="61.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+                    <mxGeometry x="143" y="504.5" width="157" height="61.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="更新element的children" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+                    <mxGeometry x="283" y="87" width="145" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="text" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="27" y="176" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="27" y="281" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="更新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="88" y="245" width="42" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="text" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="202" y="171" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="text" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="202" y="276" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="12" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="368" y="170.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="text" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="368" y="275.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="更新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="272" y="240" width="42" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="更新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="436" y="240" width="42" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="18" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="545" y="170.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="545" y="275.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="双端对比diff算法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="588" y="240" width="106" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="92" y="520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="div" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="172" y="395" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="旧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="267" y="437" width="30" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="513" width="41" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="b" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="96" y="513" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="c" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="146.5" y="514" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="y" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="197" y="514" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="e" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="249" y="513" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="f" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="302" y="513" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="g" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="514" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="46" target="49" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="483" y="522" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="46" target="48" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="46" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="46" target="51" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="46" target="52" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="46" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="46" target="54" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="div" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="563" y="397" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="658" y="439" width="30" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="436" y="515" width="41" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="b" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="487" y="515" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="e" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="537.5" y="516" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="d" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="588" y="516" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="c" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="515" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="f" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="693" y="515" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="g" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="745" y="516" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="创建新的（d）【在老的里面不存在，在新的里面存在】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="231" y="591" width="313" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="删除老的（y）【在老的里面存在，在新的里面不存在】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="231" y="614" width="312" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="移动（c、e）【节点存在于新的和老的里面，但是位置变了】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="231" y="638" width="343" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="遍历所有节点的时间复杂度为O(n)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-127" y="426" width="198" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+                    <mxGeometry x="272" y="817" width="56" height="61.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="69" target="72" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="118" y="834" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="69" target="71" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="69" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="div" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="198" y="709" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="旧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="293" y="751" width="30" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="172" y="827.5" width="41" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="b" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="223" y="827.5" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="c" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="278.5" y="828.5" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+                    <mxGeometry x="575" y="817" width="106" height="61.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="82" target="85" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="421" y="834" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="82" target="84" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="82" target="86" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="82" target="78" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="div" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="513" y="709" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="596" y="751" width="30" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="475" y="827.5" width="41" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="b" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="526" y="827.5" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="d" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="581.5" y="828.5" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="355" y="431" as="sourcePoint"/>
+                        <mxPoint x="490" y="431" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="330" y="733" as="sourcePoint"/>
+                        <mxPoint x="465" y="733" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="e" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="631" y="829.25" width="43" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="双端对比diff算法：基于乱序部分进行对比，减少时间复杂度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-162" y="747" width="334" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="旧div修改成新div" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="683" width="109" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="99" target="110" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-43" y="1365" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="99" value="patchChildren对比新旧虚拟dom的children属性，递归更新子节点的真实dom【删除、增加、移动】" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="-17" y="1252" width="235" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="patchProps对比新旧虚拟dom的props属性进行更新真实dom节点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="483" y="2257" width="196" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="&lt;span style=&quot;color: rgb(240, 240, 240);&quot;&gt;这里只考虑对比children为数组的情况，&lt;/span&gt;涉及diff算法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="136" y="1301" width="292" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="110" target="119" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="1502" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="121" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="110" target="123" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="432" y="1588" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="136" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="110" target="125" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="如果key和type一致，那么递归调用patch【有传oldVNode，patch内部走patchElement的逻辑，patchElement内部会调用patchChildren达到递归的效果】继续去对比新旧虚拟dom的children，进行更新操作【删除、增加、移动】，同时对比完双端后，会筛选出中间的不一致的【得到i、e1、e2参数】，可以有效减少新旧虚拟dom的对比个数，提高算法效率" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="-138.25" y="1380" width="477.5" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="双端对比，计算出i、e1、e2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="17.5" y="1338" width="167" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="减少时间复杂度，提高算法效率" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="314" y="1439" width="186" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="双端对比后，通过i、e1、e2走三个逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="-37" y="1458" width="227" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;if&lt;/span&gt; (&lt;span style=&quot;color: #9cdcfe;&quot;&gt;i&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;e1&lt;/span&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #c586c0;&quot;&gt;if&lt;/span&gt; (&lt;span style=&quot;color: #9cdcfe;&quot;&gt;i&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;e2&lt;/span&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #569cd6;&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;nextPos&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;e2&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;+&lt;/span&gt; &lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #6a9955;&quot;&gt;// anchor 瞄点&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #6a9955;&quot;&gt;// 索引从0开始，所以不能超过newChildren.length&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #569cd6;&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;anchor&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;nextPos&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;newChildren&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;length&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;?&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;newChildren&lt;/span&gt;[&lt;span style=&quot;color: #4fc1ff;&quot;&gt;nextPos&lt;/span&gt;].&lt;span style=&quot;color: #9cdcfe;&quot;&gt;el&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #569cd6;&quot;&gt;null&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #6a9955;&quot;&gt;// 新增&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #c586c0;&quot;&gt;while&lt;/span&gt; (&lt;span style=&quot;color: #9cdcfe;&quot;&gt;i&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;e2&lt;/span&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;patch&lt;/span&gt;(&lt;span style=&quot;color: #569cd6;&quot;&gt;null&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;newChildren&lt;/span&gt;[&lt;span style=&quot;color: #9cdcfe;&quot;&gt;i&lt;/span&gt;], &lt;span style=&quot;color: #9cdcfe;&quot;&gt;container&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;parentComponentInstance&lt;/span&gt;, &lt;span style=&quot;color: #4fc1ff;&quot;&gt;anchor&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;++&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="-762" y="1603" width="762.5" height="302" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="新虚拟dom的children比旧虚拟dom的children长【新增】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="-309" y="1521" width="317" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="新虚拟dom的children比旧虚拟dom的children短【删除】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="51" y="1523" width="317" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;i&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;e2&lt;/span&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #6a9955;&quot;&gt;// 老的比新的多 删除&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #c586c0;&quot;&gt;while&lt;/span&gt; (&lt;span style=&quot;color: #9cdcfe;&quot;&gt;i&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;e1&lt;/span&gt;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;hostRemove&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;oldChildren&lt;/span&gt;[&lt;span style=&quot;color: #9cdcfe;&quot;&gt;i&lt;/span&gt;].&lt;span style=&quot;color: #9cdcfe;&quot;&gt;el&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;++&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="1603" width="387.5" height="157" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="125" target="145" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="678" y="1939" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="125" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="466" y="1592" width="424" height="297" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="i &amp;gt; e1作为前提" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="-224" y="1555" width="96" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="i &amp;gt; e2作为前提" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="206" y="1563" width="96" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" value="删除旧虚拟dom挂载的el" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+                    <mxGeometry x="169" y="1774" width="149" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="对比中间的逻辑，涉及【删除、增加、移动】，情况更复杂" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="406" y="1521" width="330" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;i &amp;lt; e1 且 i &amp;lt; e2作为前提&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="501" y="1553" width="144" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="分左侧多和右侧多，逻辑一样，引入了anchor的概念，更新了insert函数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+                    <mxGeometry x="-473" y="1929" width="212" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="通过i和e2遍历新节点的中间对比部分，得到键为key，值为索引的map集合，这一步是为了方便从旧节点中找到相同的节点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="504" y="1634" width="343.5" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" value="接下来，通过i和e1遍历旧节点的中间对比过分，如果oldVNode&lt;br&gt;有key值，可以从map集合中快速检索出是否有相同的虚拟节点。&lt;br&gt;如果oldVNode没有key值，那么需要遍历所有的新节点的中间部分，&lt;br&gt;通过key和type【即调用&lt;span style=&quot;color: rgb(220, 220, 170); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;isSomeVNodeType函数&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;】去检索出是否&lt;br&gt;有相同的虚拟节点&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="497.5" y="1706" width="377" height="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" value="&lt;span style=&quot;&quot;&gt;先考虑第一种情况【删除】&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="613.5" y="1603" width="162" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="如果检索到一样的，那么调用patch进行更新props、children操作。&lt;br&gt;如果没有检索到，那么直接删除oldVNode挂载的el真实dom" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="497.5" y="1811" width="371" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="466" y="1972" width="425" height="92" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" value="优化点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="681" y="1921" width="54" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="如果调用patch进行对比的次数，大于中间新节点要对比的个数，&lt;br&gt;那么就无需走下面的流程了，直接删除&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;oldVNode挂载的el真实dom即可&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="492" y="2000" width="391" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="删除是通过oldVNode挂载的el进行删除&lt;br&gt;更新是通过调用patch函数，传入oldVNode进行真实dom的更新&lt;br&gt;新增是通过调用patch函数，oldVNode传为null进行操作的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="487" y="2172" width="351" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" value="真实dom的修改" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="602" y="2120" width="101" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="title" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="491" y="2103" width="37" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="新增的时候，patch函数才需要传anchor锚点，&lt;br&gt;对比更新传null即可" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="-268" y="1811" width="264" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="169" target="163" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1148" y="1960" as="targetPoint"/>
+                        <mxPoint x="1150" y="1877" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="173" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="154" target="169" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="933" y="1589" width="429" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="第二种情况【移动】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1047" y="1605" width="126" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="新建newIndexAtOldIndexMap，存放节点存在新children中的索引，&lt;br&gt;初始化的值为0，长度为e2 - s2 + 1【maxNumber】，建立映射关系" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="952" y="1640" width="375" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="如果节点存在于新旧children中，开始往newIndexAtOldIndexMap填充，&lt;br&gt;newIndexAtOldIndexMap[newIndex - s2] = i + 1，在调用patch进行更新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="952" y="1698" width="398" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="这里的s2指i，为了方便区分遍历以i为索引导致混乱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="945" y="1555" width="288" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="" style="edgeStyle=none;html=1;entryX=1.001;entryY=0.561;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.537;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="157" target="143" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="同个if判断逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="856" y="1768" width="96" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="优化点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1149" y="2127" width="54" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="933" y="2173" width="425" height="92" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="如果遍历存在新旧节点中的节点，最后一个的索引值小于上一个索引值，&lt;br&gt;&lt;b style=&quot;background-color: rgb(255, 0, 0);&quot;&gt;那么后续才需要去计算最长递增子序列，以及进行移动的逻辑&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="948" y="2198.5" width="402" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" value="到此，跳出遍历oldChild中间部分的循环，对newIndexAtOldIndexMap&lt;br&gt;完成了填充【newIndexAtOldIndexMap为0的值表示在新节点中需要创&lt;br&gt;建的】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="952" y="1750" width="387" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" value="新建increasingNewIndexSequence，存放newIndexAtOldIndexMap的&lt;br&gt;最长递增子序列，新建j变量为increasingNewIndexSequence.length - 1，&lt;br&gt;含义待考察【是为了考虑是否需要移动元素】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="945.5" y="1896" width="404" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" value="倒序遍历newChild中间部分，取出最后一个元素【索引为nextIndex】&lt;br&gt;判断nextIndex+1是否小于newChildren的长度，如果小于则anchor为&lt;br&gt;newChildren[nextIndex+1]，否则为null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="945.5" y="1963" width="383" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;increasingNewIndexSequence存放的是稳定子序列的索引，&lt;br&gt;&lt;/span&gt;通过对比索引，如果i !== increasingNewIndexSequence[j]，&lt;br&gt;那么就需要去移动元素，反正j--" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="948" y="2027" width="336" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="176" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1584" y="1868.5" width="429" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="第三种情况 新增" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1713" y="1889" width="105" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="这一步在对比新旧children中间是否有相同节点中完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1123" y="2245" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" value="如果在遍历中发现newIndexAtOldIndexMap[i] = 0，那么就&lt;br&gt;代表要新建元素" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1620" y="1931" width="326" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" value="" style="edgeStyle=none;html=1;entryX=0.005;entryY=0.423;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="171" target="179" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="倒序遍历新children中间部分，索引从0开始&lt;br&gt;与increasingNewIndexSequence存放的&lt;br&gt;最长递增子序列进行对比，去考虑要不要&lt;br&gt;移动元素" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1310" y="2036.5" width="247" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="先遍历新children中间部分，索引从i开始&lt;br&gt;填充newKeyIndexMap映射表【有key值可以&lt;br&gt;降低时间复杂度，这一步值得牢记】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1360" y="1614" width="252" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="后遍历旧children中间部分，索引从i开始&lt;br&gt;填充newIndexAtOldIndexMap，表示新children&lt;br&gt;中间部分在老children中的索引【避免索引为0，以初始化一致，索引+1】，为0表示待创建&lt;br&gt;的新节点，在这一步去完成删除元素以及&lt;br&gt;对比更新元素【还有一个功能，就是判断&lt;br&gt;要不要去移动元素，看箭头指示的优化点】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1360" y="1676" width="495" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" value="" style="endArrow=classic;html=1;entryX=0.915;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="183" target="165" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1380" y="2027" as="sourcePoint"/>
+                        <mxPoint x="1430" y="1977" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="186" value="对比更新的节点大于等于新children中间的个数【取等于号是因为索引都是从0开始计算的】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="384" y="1974" width="499" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;newIndexAtOldIndexMap新children中间部分在老oldchildren的索引&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1745" y="1681" width="372" height="26" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

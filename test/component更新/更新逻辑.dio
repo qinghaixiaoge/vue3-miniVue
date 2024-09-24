@@ -1,0 +1,118 @@
+<mxfile host="65bd71144e">
+    <diagram id="PAY4X7wU7gKCvHMZmbfO" name="第 1 页">
+        <mxGraphModel dx="1516" dy="955" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="50" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="-135" y="-24" width="234" height="132" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="有个误解点：生成组件实例component，无需调用render函数！！！！" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" parent="1" vertex="1">
+                    <mxGeometry x="448" y="-298" width="666" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="更新组件的props：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" parent="1" vertex="1">
+                    <mxGeometry x="352" y="-206" width="197" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="props没改变，无需更新组件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" parent="1" vertex="1">
+                    <mxGeometry x="608" y="-252" width="281" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;newVNode&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;component&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;oldVNode&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;component&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&amp;nbsp;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;componetInstance&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;next&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;newVNode&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;next&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;el&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;vnode&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;el&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;componentInstance&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;vnode&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;nextVNode&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;componentInstance&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;next&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #569cd6;&quot;&gt;null&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;componentInstance&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;props&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;nextVNode&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;props&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="-206" width="395" height="126" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="不更新组件的props：&lt;br&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;newVNode&lt;/span&gt;.&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;component&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;=&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;oldVNode&lt;/span&gt;.&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;component&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(156, 220, 254);&quot;&gt;newVNode&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(156, 220, 254);&quot;&gt;el&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(212, 212, 212);&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(156, 220, 254);&quot;&gt;oldVNode&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(156, 220, 254);&quot;&gt;el&lt;/span&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;componetInstance&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;vnode&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;newVNode&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" parent="1" vertex="1">
+                    <mxGeometry x="955" y="-209" width="318" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;br&gt;1、将组件旧虚拟dom挂载的组件实例component赋值给新虚拟dom挂载的组件实例component&lt;br&gt;2、将更新后的虚拟dom挂载到组件实例的next属性&lt;br&gt;3、触发instance.update&lt;br&gt;4、将组件旧虚拟dom挂载的真实dom(el)赋值给新虚拟dom挂载的真实dom(el)&lt;br&gt;5、将新虚拟dom赋值给组件实例的vnode&lt;br&gt;6、将新虚拟dom的props赋值给组件实例的props&lt;br&gt;&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" parent="1" vertex="1">
+                    <mxGeometry x="192" y="-54" width="886" height="214" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="新虚拟dom的作用是携带props" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontSize=21;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="172" width="300" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="虚拟dom挂载组件实例【component】先操作、真实dom【el属性】后操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontSize=21;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="225" width="703" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="更新组件实例的vnode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontSize=21;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="848" y="78" width="222" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="更新组件虚拟节点的component" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontSize=21;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1078" y="-28" width="311" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="更新组件虚拟节点的el" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontSize=21;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="998" y="49" width="223" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="更新组件实例的props" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontSize=21;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="869" y="110" width="218" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="组件实例和vnode都携带props" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontSize=21;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="949" y="225" width="296" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="不更改组件的props，省略2，3，6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" parent="1" vertex="1">
+                    <mxGeometry x="839" y="160" width="337" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;newVNode&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;el&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;oldVNode&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;el&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="401" width="210" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="更新element" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" parent="1" vertex="1">
+                    <mxGeometry x="294" y="351" width="135" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="组件实例的vnode是组件配置对象的组件虚拟dom&lt;br&gt;组件实例的subTree是组件配置对象render函数返回的组件虚拟dom&lt;br&gt;组件实例vnode和subTree挂载的el是一样的，挂载组件即将subTree.el赋值给vnode.el" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="-395" width="808" height="88" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="oldVNode和newVNode存放的是组件配置render函数返回的结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="949" y="277" width="356" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="更新普通元素虚拟节点的el" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontSize=21;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="513" y="398" width="265" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="36" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="36" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="edgeStyle=none;html=1;entryX=0.996;entryY=0.297;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="36" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="老组件虚拟节点赋值给新组件虚拟节点的属性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1351" y="31" width="258" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="41" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="edgeStyle=none;html=1;entryX=1.005;entryY=0.568;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="41" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="新虚拟组件节点赋值给它们" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1305" y="108" width="162" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="更新newVNode的component和el属性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-131" y="5" width="217" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="组件更新[必做]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-138" y="-21" width="97" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="更新newVNode的el属性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-123" y="73" width="146" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="元素更新[必做]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-135" y="39" width="97" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="引入了组件实例的next的概念" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="362" y="-164" width="173" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="无非就是将首次挂载的赋值的事重新做一遍，相当于更新操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="-139" y="99" width="342" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="以及组件实例的vnode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-57" y="-17" width="135" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;组件的props是否改变的开关，只有改变了才对其赋值&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="-144" width="351" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="在patchElement和updateComponent完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-141.5" y="-58" width="238" height="26" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
